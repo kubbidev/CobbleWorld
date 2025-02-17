@@ -1,0 +1,812 @@
+[
+	{
+		"name": "Nature's Compass",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/252848/files/4712188/download"
+	},
+	{
+		"name": "MidnightLib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/488090/files/4576371/download"
+	},
+	{
+		"name": "Carry On",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/274259/files/4882498/download"
+	},
+	{
+		"name": "Smooth Swapping",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/513689/files/4838934/download"
+	},
+	{
+		"name": "YUNG's Better Ocean Monuments",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/689252/files/4883005/download"
+	},
+	{
+		"name": "Balm",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/500525/files/5999468/download"
+	},
+	{
+		"name": "WorldEdit",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/225608/files/4586218/download"
+	},
+	{
+		"name": "Iceberg",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/539382/files/5838145/download"
+	},
+	{
+		"name": "Cloth Config API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/348521/files/5729104/download"
+	},
+	{
+		"name": "Player Roles",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/394363/files/4619064/download"
+	},
+	{
+		"name": "Controlling",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/250398/files/4646681/download"
+	},
+	{
+		"name": "Cobblemizer: Cobblemon Customizer",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/956110/files/5036312/download"
+	},
+	{
+		"name": "Cobblemon - Yet Another Chance Booster",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1079394/files/5610380/download"
+	},
+	{
+		"name": "The Open Sauce Toast Killer",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/923372/files/4836957/download"
+	},
+	{
+		"name": "Chat Heads",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/407206/files/5936596/download"
+	},
+	{
+		"name": "Chimes",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/350464/files/4671968/download"
+	},
+	{
+		"name": "Moonlight Lib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/499980/files/6009558/download"
+	},
+	{
+		"name": "Player Ladder",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/577705/files/4588277/download"
+	},
+	{
+		"name": "Sophisticated Core",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/979317/files/6022103/download"
+	},
+	{
+		"name": "Sophisticated Storage",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/979326/files/6016098/download"
+	},
+	{
+		"name": "MVS - Moog's Voyager Structures",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/656977/files/5668462/download"
+	},
+	{
+		"name": "Vein Mining",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/431611/files/5481490/download"
+	},
+	{
+		"name": "Numismatic Overhaul",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/568316/files/5113697/download"
+	},
+	{
+		"name": "FTB Teams",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/438497/files/5267188/download"
+	},
+	{
+		"name": "Crawl",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/314579/files/4652648/download"
+	},
+	{
+		"name": "MoreCobblemonTweaks",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/1082538/files/5895525/download"
+	},
+	{
+		"name": "Cobblemon Unchained",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/901476/files/5350174/download"
+	},
+	{
+		"name": "Loot beams",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/1161712/files/6002393/download"
+	},
+	{
+		"name": "Bits And Chisels",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/420709/files/4670613/download"
+	},
+	{
+		"name": "WTHIT",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/440979/files/5977887/download"
+	},
+	{
+		"name": "Amendments",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/896746/files/5820237/download"
+	},
+	{
+		"name": "Gravel's Extended Battles",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/930317/files/5516785/download"
+	},
+	{
+		"name": "Default Options",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/547694/files/4635875/download"
+	},
+	{
+		"name": "Item Obliterator",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/835861/files/5424643/download"
+	},
+	{
+		"name": "Resourceful Lootbags",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/687082/files/4588368/download"
+	},
+	{
+		"name": "Cobblemon",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/687131/files/5375408/download"
+	},
+	{
+		"name": "Mouse Tweaks",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/60089/files/5230279/download"
+	},
+	{
+		"name": "YetAnotherConfigLib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/667299/files/5963250/download"
+	},
+	{
+		"name": "Storage Labels",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/688223/files/5349696/download"
+	},
+	{
+		"name": "Melody",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/938643/files/5139711/download"
+	},
+	{
+		"name": "CobblemonRider",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/990998/files/5796248/download"
+	},
+	{
+		"name": "bad packets",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/615134/files/4784394/download"
+	},
+	{
+		"name": "Forge Config API Port",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/547434/files/5902421/download"
+	},
+	{
+		"name": "Advancement Plaques",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/514882/files/5762252/download"
+	},
+	{
+		"name": "Sit",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/328163/files/5378501/download"
+	},
+	{
+		"name": "Muffin's Picnic",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/967871/files/5064690/download"
+	},
+	{
+		"name": "Necronomicon API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/586157/files/5772682/download"
+	},
+	{
+		"name": "Myths and Legends",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1037337/files/5827315/download"
+	},
+	{
+		"name": "Joe's Shader Toggle",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/919643/files/4782835/download"
+	},
+	{
+		"name": "Cobblemon Fight or Flight",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/846207/files/4849580/download"
+	},
+	{
+		"name": "Resource Pack Overrides",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/832644/files/5101542/download"
+	},
+	{
+		"name": "El and L's Dyes",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1122454/files/6010968/download"
+	},
+	{
+		"name": "FabricSkyboxes",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/408209/files/4761944/download"
+	},
+	{
+		"name": "Slideshow",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1134625/files/5879309/download"
+	},
+	{
+		"name": "Terrastorage",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1105569/files/5781018/download"
+	},
+	{
+		"name": "Bobby",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/409301/files/4706163/download"
+	},
+	{
+		"name": "Bobby",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/409301/files/4706163/download"
+	},
+	{
+		"name": "Building But Better",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/989479/files/5382599/download"
+	},
+	{
+		"name": "Trinkets",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/341284/files/5173501/download"
+	},
+	{
+		"name": "Prism",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/665526/files/4650327/download"
+	},
+	{
+		"name": "CobbleFoods",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/965579/files/5825903/download"
+	},
+	{
+		"name": "Iris Shaders",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/455508/files/5789255/download"
+	},
+	{
+		"name": "Global Packs",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/317134/files/4570601/download"
+	},
+	{
+		"name": "Collective",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/342584/files/5840216/download"
+	},
+	{
+		"name": "FancyMenu",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/367706/files/5823941/download"
+	},
+	{
+		"name": "YUNG's Better Jungle Temples",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/897678/files/5331761/download"
+	},
+	{
+		"name": "TerraBlender",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/565956/files/5378181/download"
+	},
+	{
+		"name": "Ascension Megamons",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/971821/files/5336647/download"
+	},
+	{
+		"name": "Simple Voice Chat",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/416089/files/5907373/download"
+	},
+	{
+		"name": "ChatAnimation",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/892086/files/4999734/download"
+	},
+	{
+		"name": "Cobblemon Poképedia: Cobblepedia",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/850946/files/5772440/download"
+	},
+	{
+		"name": "Terrastorage: Icons",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/1117638/files/5793606/download"
+	},
+	{
+		"name": "Emojiful",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/284324/files/4672307/download"
+	},
+	{
+		"name": "Puzzles Lib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/495476/files/5904751/download"
+	},
+	{
+		"name": "Pokeblocks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1078431/files/5864097/download"
+	},
+	{
+		"name": "Improved Pillager Outpost",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/1093283/files/5687999/download"
+	},
+	{
+		"name": "MSS - Moog's Soaring Structures",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/1040210/files/5848395/download"
+	},
+	{
+		"name": "Pehkui",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/319596/files/5419266/download"
+	},
+	{
+		"name": "oωo",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/532610/files/4749199/download"
+	},
+	{
+		"name": "Traveler's Titles",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/590990/files/5065826/download"
+	},
+	{
+		"name": "Dynamic Crosshair Compat",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/632420/files/5945146/download"
+	},
+	{
+		"name": "Fabric API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/306612/files/5383715/download"
+	},
+	{
+		"name": "Fabric API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/306612/files/5383715/download"
+	},
+	{
+		"name": "Cobblemon Integrations",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/913400/files/5760247/download"
+	},
+	{
+		"name": "Tree Harvester",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/367178/files/5640967/download"
+	},
+	{
+		"name": "FTB Chunks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/472657/files/5956389/download"
+	},
+	{
+		"name": "Searchables",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/858542/files/5284014/download"
+	},
+	{
+		"name": "YUNG's API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/421649/files/5769972/download"
+	},
+	{
+		"name": "Spawner Control",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/1109365/files/5862154/download"
+	},
+	{
+		"name": "Another Furniture",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/610492/files/4815126/download"
+	},
+	{
+		"name": "Default Hotkeys",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/1158440/files/5994812/download"
+	},
+	{
+		"name": "Sodium",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/394468/files/5485654/download"
+	},
+	{
+		"name": "Waystones",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/500087/files/5841747/download"
+	},
+	{
+		"name": "Crafting Tweaks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/502516/files/5623638/download"
+	},
+	{
+		"name": "Solara Dimension",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1125254/files/5828352/download"
+	},
+	{
+		"name": "Bountiful",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/521673/files/5937422/download"
+	},
+	{
+		"name": "Cobblemon: Star Academy Integration",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1175216/files/6096126/download"
+	},
+	{
+		"name": "Sodium Extra",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/447673/files/5063875/download"
+	},
+	{
+		"name": "Mod Menu",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/308702/files/5162837/download"
+	},
+	{
+		"name": "YUNG's Better Mineshafts",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/373591/files/4769064/download"
+	},
+	{
+		"name": "Cobblemon - Loot Balls",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1037611/files/5432390/download"
+	},
+	{
+		"name": "JustHammers",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/681606/files/5907504/download"
+	},
+	{
+		"name": "Legendary Tooltips",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/542478/files/4940615/download"
+	},
+	{
+		"name": "Heartstone",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/573152/files/4851350/download"
+	},
+	{
+		"name": "Cloud Boots",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/291246/files/4891360/download"
+	},
+	{
+		"name": "YUNG's Better Nether Fortresses",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/817666/files/5193464/download"
+	},
+	{
+		"name": "Cooking for Blockheads",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/634546/files/5735270/download"
+	},
+	{
+		"name": "Architectury API",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/419699/files/5137936/download"
+	},
+	{
+		"name": "Dynamic Crosshair",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/623800/files/5957380/download"
+	},
+	{
+		"name": "FTB Library",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/438495/files/6016762/download"
+	},
+	{
+		"name": "Genshin Instruments",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/848761/files/5742162/download"
+	},
+	{
+		"name": "Enhanced Celestials",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/443694/files/5694158/download"
+	},
+	{
+		"name": "Where Are My TMs",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/923243/files/4997907/download"
+	},
+	{
+		"name": "Hearth & Home",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/849364/files/5310270/download"
+	},
+	{
+		"name": "Hopo Better Underwater Ruins",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/632622/files/5137916/download"
+	},
+	{
+		"name": "Stoneworks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/852663/files/4611948/download"
+	},
+	{
+		"name": "YUNG's Better Strongholds",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/480684/files/4769084/download"
+	},
+	{
+		"name": "Convenient Decor",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/794452/files/5719100/download"
+	},
+	{
+		"name": "FindMe",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/291936/files/5074612/download"
+	},
+	{
+		"name": "Mouse Wheelie",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/317514/files/4781071/download"
+	},
+	{
+		"name": "Oh The Trees You'll Grow",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/962544/files/6001129/download"
+	},
+	{
+		"name": "JourneyMap",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/32274/files/5789354/download"
+	},
+	{
+		"name": "Camerapture",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1051342/files/5992749/download"
+	},
+	{
+		"name": "Cobblemon Pokédex",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1037354/files/5518544/download"
+	},
+	{
+		"name": "Fabric Language Kotlin",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/308769/files/5950505/download"
+	},
+	{
+		"name": "FTB Ranks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/472659/files/4596741/download"
+	},
+	{
+		"name": "CraftTweaker",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/239197/files/5880671/download"
+	},
+	{
+		"name": "Tidal Towns",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/891880/files/5944710/download"
+	},
+	{
+		"name": "Rhino",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/416294/files/5655835/download"
+	},
+	{
+		"name": "Kambrik",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/455585/files/4654396/download"
+	},
+	{
+		"name": "Faux Custom Entity Data",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/575305/files/4607750/download"
+	},
+	{
+		"name": "Boosted Brightness",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/386460/files/4604017/download"
+	},
+	{
+		"name": "Cobblemon Move Inspector",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/1022036/files/5382525/download"
+	},
+	{
+		"name": "GeckoLib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/388172/files/5675212/download"
+	},
+	{
+		"name": "Cobblemon Interface",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/860898/files/5348273/download"
+	},
+	{
+		"name": "William Wythers' Overhauled Overworld",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/921022/files/4793728/download"
+	},
+	{
+		"name": "YUNG's Better Witch Huts",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/631403/files/4769490/download"
+	},
+	{
+		"name": "ModernFix",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/790626/files/5986633/download"
+	},
+	{
+		"name": "Lootr",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/615106/files/5976143/download"
+	},
+	{
+		"name": "Smooth Font - 32x",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/616555/files/4764738/download"
+	},
+	{
+		"name": "Roughly Enough Items",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/310111/files/5846921/download"
+	},
+	{
+		"name": "Chunky",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/433175/files/5320021/download"
+	},
+	{
+		"name": "Sophisticated Backpacks",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/979322/files/5966000/download"
+	},
+	{
+		"name": "Cobblemon Counter",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/900238/files/5535274/download"
+	},
+	{
+		"name": "Even More Instruments!",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/898118/files/5828006/download"
+	},
+	{
+		"name": "YUNG's Better Desert Temples",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/631020/files/4769440/download"
+	},
+	{
+		"name": "ATi Structures",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/964608/files/5526317/download"
+	},
+	{
+		"name": "Towers of the Wild Modded",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/859365/files/5239655/download"
+	},
+	{
+		"name": "Indium",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/459496/files/5493195/download"
+	},
+	{
+		"name": "Patchouli",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/393236/files/4966124/download"
+	},
+	{
+		"name": "KubeJS",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/238086/files/5853321/download"
+	},
+	{
+		"name": "Zoomify",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/574741/files/5838122/download"
+	},
+	{
+		"name": "Cobblemon Pokenav",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/976014/files/5521292/download"
+	},
+	{
+		"name": "Night Lights",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/651876/files/4665623/download"
+	},
+	{
+		"name": "Tom's Simple Storage Mod",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/396826/files/5999792/download"
+	},
+	{
+		"name": "Server Hats",
+		"side": "server",
+		"url": "https://www.curseforge.com/api/v1/mods/549653/files/4591365/download"
+	},
+	{
+		"name": "CorgiLib",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/693313/files/6002847/download"
+	},
+	{
+		"name": "Konkrete",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/416797/files/5142502/download"
+	},
+	{
+		"name": "Oh The Biomes We've Gone",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1070751/files/5932829/download"
+	},
+	{
+		"name": "Seamless Loading Screen",
+		"side": "client",
+		"url": "https://www.curseforge.com/api/v1/mods/429926/files/4755306/download"
+	},
+	{
+		"name": "Hot Kettles",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/1148583/files/5958734/download"
+	},
+	{
+		"name": "Starter Kit",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/390717/files/5571758/download"
+	}
+]
