@@ -1,16 +1,20 @@
 ### Minecraft template
 .fabric/*
-global_packs/*
+defaultconfigs/*
 cobbleworld/*
 config/*
+global_packs/*
 journeymap/*
 kubejs/*
 libraries/*
+local/*
 logs/*
 mods/*
 scripts/*
+showdown/*
 versions/*
 
+rhino.local.properties
 usercache.json
 
 ### Java template

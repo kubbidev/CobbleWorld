@@ -196,7 +196,7 @@
 	},
 	{
 		"name": "Melody",
-		"side": "client",
+		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/938643/files/5139711/download"
 	},
 	{
