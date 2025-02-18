@@ -1,10 +1,14 @@
 ### Minecraft template
 .fabric/*
+global_packs/*
+cobbleworld/*
 config/*
+journeymap/*
+kubejs/*
 libraries/*
 logs/*
 mods/*
-Star Academy/*
+scripts/*
 versions/*
 
 usercache.json
