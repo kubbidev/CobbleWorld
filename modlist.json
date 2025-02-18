@@ -813,5 +813,15 @@
 		"name": "Impactor",
 		"side": "server",
 		"url": "https://cdn.modrinth.com/data/LdBYVaPS/versions/mfdqVK7W/Impactor-Fabric-5.2.6%2B1.20.1.jar"
+	},
+	{
+		"name": "LuckPerms",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/7PNj6nCm/LuckPerms-Fabric-5.4.102.jar"
+	},
+	{
+		"name": "spark",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/l6YH9Als/versions/XGW2fviP/spark-1.10.53-fabric.jar"
 	}
 ]
