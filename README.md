@@ -31,7 +31,9 @@ This repository is structured as follows:
 ├─ preload_mods.sh         # Script to download necessary mods  
 ├─ preload_server.sh       # Script to download the server.jar file
 ├─ README.md               # Documentation on how to use the software
-├─ server.properties       # Configuration file for Minecraft server properties  
+├─ reset_server.sh         # Script used to reset everything, use it carefully
+├─ server.properties       # Configuration file for Minecraft server properties
+├─ start_server.bat        # Script to start the Minecraft server
 └─ whitelist.json          # List of players allowed to join the server  
 ```  
 
