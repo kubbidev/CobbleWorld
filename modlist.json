@@ -792,9 +792,10 @@
 	{
 		"name": "Cobbreeding",
 		"side": "both",
-		"url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/8urJiCDL/Cobbreeding-fabric-1.7.4.jar"
+		"url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/QLnYzONw/Cobbreeding-fabric-1.7.0.jar"
 	},
 	{
+		// approximate version (v1.1.2 dev at https://github.com/bigchadguys/DailyShop/)
 		"name": "Joe's Daily Shop",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/922332/files/5440087/download"
@@ -812,6 +813,6 @@
 	{
 		"name": "Impactor",
 		"side": "server",
-		"url": "https://cdn.modrinth.com/data/LdBYVaPS/versions/TMvkKGtB/Impactor-Fabric-5.2.7%2B1.20.1.jar"
+		"url": "https://cdn.modrinth.com/data/LdBYVaPS/versions/mfdqVK7W/Impactor-Fabric-5.2.6%2B1.20.1.jar"
 	}
 ]
