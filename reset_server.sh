@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Array of folders to keep
-KEEP_FOLDERS=(".git", "client_resourcepacks" "packages")
+KEEP_FOLDERS=(".git" "client_resourcepacks" "packages")
 
 # Ensure we are in the correct directory
 cd "$(dirname "$0")" || exit 1
