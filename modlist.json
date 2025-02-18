@@ -788,5 +788,30 @@
 		"name": "Starter Kit",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/390717/files/5571758/download"
+	},
+	{
+		"name": "Cobbreeding",
+		"side": "both",
+		"url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/8urJiCDL/Cobbreeding-fabric-1.7.4.jar"
+	},
+	{
+		"name": "Joe's Daily Shop",
+		"side": "both",
+		"url": "https://www.curseforge.com/api/v1/mods/922332/files/5440087/download"
+	},
+	{
+		"name": "GooeyLibs",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/BXIm53Zb/GooeyLibs-Fabric-3.0.0%2B1.20.1.jar"
+	},
+	{
+		"name": "Cobblemon Hunt",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/QMAwqHhY/versions/dyUmshPP/Hunt-1.1.0-fabric.jar"
+	},
+	{
+		"name": "Impactor",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/LdBYVaPS/versions/TMvkKGtB/Impactor-Fabric-5.2.7%2B1.20.1.jar"
 	}
 ]
