@@ -280,11 +280,6 @@
 		"url": "https://www.curseforge.com/api/v1/mods/409301/files/4706163/download"
 	},
 	{
-		"name": "Bobby",
-		"side": "client",
-		"url": "https://www.curseforge.com/api/v1/mods/409301/files/4706163/download"
-	},
-	{
 		"name": "Building But Better",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/989479/files/5382599/download"
@@ -403,11 +398,6 @@
 		"name": "Dynamic Crosshair Compat",
 		"side": "client",
 		"url": "https://www.curseforge.com/api/v1/mods/632420/files/5945146/download"
-	},
-	{
-		"name": "Fabric API",
-		"side": "both",
-		"url": "https://www.curseforge.com/api/v1/mods/306612/files/5383715/download"
 	},
 	{
 		"name": "Fabric API",
@@ -670,11 +660,6 @@
 		"url": "https://www.curseforge.com/api/v1/mods/388172/files/5675212/download"
 	},
 	{
-		"name": "Cobblemon Interface",
-		"side": "client",
-		"url": "https://www.curseforge.com/api/v1/mods/860898/files/5348273/download"
-	},
-	{
 		"name": "William Wythers' Overhauled Overworld",
 		"side": "server",
 		"url": "https://www.curseforge.com/api/v1/mods/921022/files/4793728/download"
@@ -693,11 +678,6 @@
 		"name": "Lootr",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/615106/files/5976143/download"
-	},
-	{
-		"name": "Smooth Font - 32x",
-		"side": "client",
-		"url": "https://www.curseforge.com/api/v1/mods/616555/files/4764738/download"
 	},
 	{
 		"name": "Roughly Enough Items",
