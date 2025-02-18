@@ -1,5 +1,8 @@
 # CobbleWorld
 
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=for-the-badge)](https://github.com/RichardLitt/standard-readme)
+[![discord-banner](https://img.shields.io/discord/1258062506270654515?label=discord&style=for-the-badge&color=7289da)](https://discord.kubbidev.me)
+
 Welcome to the CobbleWorld Minecraft server template! This repository contains everything you need to set up a
 Minecraft  
 server running the Cobblemon mod, along with various mods and datapacks to enhance the experience.
