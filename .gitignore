@@ -1,21 +1,9 @@
 ### Minecraft template
-.fabric/*
-defaultconfigs/*
-cobbleworld/*
-config/*
-crash-reports/*
-global_packs/*
-journeymap/*
-kubejs/*
-libraries/*
-local/*
-logs/*
-modernfix/*
-mods/*
-patchouli_books/*
-scripts/*
-showdown/*
-versions/*
+*/
+!client_resourcepacks/
+!client_resourcepacks/**
+!packages
+!packages**
 
 rhino.local.properties
 usercache.json
