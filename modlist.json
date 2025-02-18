@@ -795,7 +795,6 @@
 		"url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/QLnYzONw/Cobbreeding-fabric-1.7.0.jar"
 	},
 	{
-		// approximate version (v1.1.2 dev at https://github.com/bigchadguys/DailyShop/)
 		"name": "Joe's Daily Shop",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/922332/files/5440087/download"
