@@ -5,9 +5,6 @@
 !packages
 !packages**
 
-rhino.local.properties
-usercache.json
-
 ### Java template
 # Compiled class file
 *.class
