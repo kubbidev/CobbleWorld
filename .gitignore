@@ -3,12 +3,14 @@
 defaultconfigs/*
 cobbleworld/*
 config/*
+crash-reports/*
 global_packs/*
 journeymap/*
 kubejs/*
 libraries/*
 local/*
 logs/*
+modernfix/*
 mods/*
 scripts/*
 showdown/*
