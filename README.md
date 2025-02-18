@@ -20,10 +20,11 @@ This repository is structured as follows:
 ├─ packages                # Contains all server data (e.g. configurations)
 │ ├─ <package_files>
 ├─ .gitignore              # Git ignore file to avoid unnecessary files in version control  
-├─ banned-ips.json         # List of banned ip addresses  
-├─ banned-players.json     # List of banned players  
+├─ banned-ips.json         # List of banned ip addresses
+├─ banned-players.json     # List of banned players
+├─ build_client.sh         # A script used to build the client packages
 ├─ build_server.sh         # A script used to build the server packages
-├─ clean_server.sh         # A script used to clean the server packages
+├─ clean.sh                # A script used to clean the server packages
 ├─ eula.txt                # Minecraft's End User License Agreement acceptance  
 ├─ manifest.json           # Minecraft's modpack manifest  
 ├─ modlist.json            # JSON file listing the mods for the server  
@@ -31,7 +32,7 @@ This repository is structured as follows:
 ├─ preload_mods.sh         # Script to download necessary mods  
 ├─ preload_server.sh       # Script to download the server.jar file
 ├─ README.md               # Documentation on how to use the software
-├─ reset_server.sh         # Script used to reset everything, use it carefully
+├─ reset.sh                # Script used to reset everything, use it carefully
 ├─ server.properties       # Configuration file for Minecraft server properties
 ├─ start_server.bat        # Script to start the Minecraft server
 └─ whitelist.json          # List of players allowed to join the server  

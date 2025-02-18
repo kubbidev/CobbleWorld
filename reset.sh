@@ -45,7 +45,7 @@ is_folder_protected() {
 # Main script execution
 check_confirmation "$1"
 echo "[@] Resetting the server..."
-./clean_server.sh
+./clean.sh
 
 # Remove all folders except those in the table
 clean_folders
