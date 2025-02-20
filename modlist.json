@@ -682,17 +682,12 @@
 	{
 		"name": "ModernFix",
 		"side": "server",
-		"url": "https://cdn.modrinth.com/data/nmDcB62a/versions/LwBOyIOY/modernfix-fabric-5.20.2%2Bmc1.20.1.jar"
+		"url": "https://cdn.modrinth.com/data/nmDcB62a/versions/rBUcyf7J/modernfix-fabric-5.19.7%2Bmc1.20.1.jar"
 	},
 	{
 		"name": "Concurrent Chunk Management Engine",
 		"side": "server",
 		"url": "https://cdn.modrinth.com/data/VSNURh3q/versions/s4WOiNtz/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.16.jar"
-	},
-	{
-		"name": "Let Me Despawn",
-		"side": "server",
-		"url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/i9GmX6sU/letmedespawn-1.20.x-fabric-1.4.4.jar"
 	},
 	{
 		"name": "Lootr",
