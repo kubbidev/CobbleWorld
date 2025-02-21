@@ -1,0 +1,17 @@
+variables:
+  GRADLE_USER_HOME: ".gradle"
+  GIT_DEPTH: 0
+
+cache:
+  key: "$CI_BUILD_REF_SLUG"
+  policy: pull-push
+  paths:
+    - $GRADLE_USER_HOME/caches/
+    - $GRADLE_USER_HOME/wrapper/
+    - $GRADLE_USER_HOME/build-cache/
+
+build:
+  stage: build
+  image: gradle:8.11.1-jdk21
+  script:
+    - gradle --build-cache publish

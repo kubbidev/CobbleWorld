@@ -14,20 +14,20 @@ ensure_server_jar() {
     fi
 }
 
-# Function to ensure the 'packages' directory exists
-ensure_packages_directory() {
-    if [ ! -d "packages" ]; then
-        echo "[?] Creating 'packages' directory..."
-        mkdir packages
+# Function to ensure the 'binaries' directory exists
+ensure_binaries_directory() {
+    if [ ! -d "binaries" ]; then
+        echo "[?] Creating 'binaries' directory..."
+        mkdir binaries
     fi
 }
 
-# Function to unzip packages
-unzip_packages() {
-    echo "[?] Unzipping packages..."
-    mkdir -p packages  # Ensure packages directory exists
+# Function to unzip binaries
+unzip_binaries() {
+    echo "[?] Unzipping binaries..."
+    mkdir -p binaries  # Ensure binaries directory exists
 
-    for zipfile in packages/*.zip; do
+    for zipfile in binaries/*.zip; do
         [ -e "$zipfile" ] || continue # Skip if no .zip files exist
         folder="$(basename "$zipfile" .zip)" # Extracted folder name
         mkdir -p "$folder"
@@ -51,8 +51,8 @@ ensure_mods_downloaded() {
 
 # Main script execution
 ensure_server_jar
-ensure_packages_directory
-unzip_packages
+ensure_binaries_directory
+unzip_binaries
 ensure_mods_downloaded
 
 # Once everything is done, start the server

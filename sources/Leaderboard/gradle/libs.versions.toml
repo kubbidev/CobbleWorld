@@ -1,0 +1,7 @@
+[versions]
+shadow = "9.0.0-beta4"
+loom = "1.9-SNAPSHOT"
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+loom = { id = "fabric-loom", version.ref = "loom" }

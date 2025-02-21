@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "leaderboard",
+  "version": "${version}",
+  "name": "Leaderboard",
+  "icon": "assets/leaderboard/icon.png",
+  "description": "A Minecraft mod used to render users data in the server.",
+  "authors": [
+    "kubbidev"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "contact": {
+    "issues": "https://github.com/kubbidev/CobbleWorld/issues"
+  },
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "me.kubbidev.leaderboard.LeaderboardMod"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "leaderboard.mixins.json",
+      "environment": "server"
+    }
+  ],
+  "depends": {
+    "minecraft": "~1.20.1"
+  }
+}

@@ -1,13 +1,3 @@
-### Minecraft template
-*/
-!binaries
-!binaries/**
-!sources
-!sources/**
-
-/usercache.json
-/rhino.local.properties
-
 ### Java template
 # Compiled class file
 *.class
@@ -23,6 +13,7 @@
 *.war
 *.nar
 *.ear
+*.zip
 *.tar.gz
 *.rar
 

@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "me.kubbidev.leaderboard.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -4,7 +4,7 @@ This server configuration has been optimized for our machines.
 If you're planning to install it on your own server, you may need to adjust the following settings:
 
 1. VoiceChat Server Settings
-   - File: packages/config.zip/voicechat/voicechat-server.properties
+   - File: binaries/config.zip/voicechat/voicechat-server.properties
    - Adjustment: Modify the voice's port and other configurations as needed.
 
 2. Server Properties
