@@ -3,7 +3,7 @@
   "minecraft": {
     "version": "1.20.1",
     "loaders": [
-      "fabric-0.16.9"
+      "fabric-0.16.10"
     ]
   },
   "name": "CobbleWorld"
