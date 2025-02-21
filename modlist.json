@@ -833,5 +833,10 @@
 		"name": "spark",
 		"side": "server",
 		"url": "https://cdn.modrinth.com/data/l6YH9Als/versions/XGW2fviP/spark-1.10.53-fabric.jar"
+	},
+	{
+		"name": "From The Fog",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/p1WH6sHr/versions/JTd3TFcc/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar"
 	}
 ]
