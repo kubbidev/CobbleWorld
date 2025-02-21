@@ -1,9 +1,7 @@
 ### Minecraft template
 */
-!client_resourcepacks/
-!client_resourcepacks/**
 !packages
-!packages**
+!packages/**
 
 /usercache.json
 /rhino.local.properties
