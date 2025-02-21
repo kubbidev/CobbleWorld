@@ -18,8 +18,6 @@ server running the Cobblemon mod, along with various mods and datapacks to enhan
 This repository is structured as follows:
 
 ```
-├─ client_resourcepacks    # Contains various resource packs used by clients
-│ ├─ <resource_pack_files>
 ├─ packages                # Contains all server data (e.g. configurations)
 │ ├─ <package_files>
 ├─ .gitignore              # Git ignore file to avoid unnecessary files in version control
