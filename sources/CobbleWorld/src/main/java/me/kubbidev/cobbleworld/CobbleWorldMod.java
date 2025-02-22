@@ -1,5 +1,6 @@
 package me.kubbidev.cobbleworld;
 
+import com.mojang.brigadier.CommandDispatcher;
 import me.kubbidev.cobbleworld.commands.MainCommand;
 import me.kubbidev.cobbleworld.pokemon.CaughtPokemonModule;
 import net.fabricmc.api.DedicatedServerModInitializer;
@@ -7,7 +8,10 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.command.CommandManager;
+import net.minecraft.server.command.ServerCommandSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +27,7 @@ public final class CobbleWorldMod implements DedicatedServerModInitializer {
     /**
      * The Pokemon leaderboard instance
      */
-    private CaughtPokemonModule leaderboard;
+    private CaughtPokemonModule caughtPokemonModule;
 
     // lifecycle
 
@@ -46,18 +50,26 @@ public final class CobbleWorldMod implements DedicatedServerModInitializer {
     private void onServerStopping(MinecraftServer server) {
         LOGGER.info("Starting shutdown process...");
 
-        this.leaderboard.close();
+        this.caughtPokemonModule.close();
         LOGGER.info("Goodbye!");
     }
 
-    private void registerListeners() {
-        this.leaderboard = new CaughtPokemonModule();
-        this.leaderboard.registerListeners();
-
-        CommandRegistrationCallback.EVENT.register((d, a, e) -> MainCommand.register(this, d));
+    private void registerCommands(
+            CommandDispatcher<ServerCommandSource> dispatcher,
+            CommandRegistryAccess access,
+            CommandManager.RegistrationEnvironment environment
+    ) {
+        MainCommand.register(this, dispatcher);
     }
 
-    public CaughtPokemonModule getCaughtPokemonManager() {
-        return this.leaderboard;
+    private void registerListeners() {
+        this.caughtPokemonModule = new CaughtPokemonModule();
+        this.caughtPokemonModule.registerListeners();
+
+        CommandRegistrationCallback.EVENT.register(this::registerCommands);
+    }
+
+    public CaughtPokemonModule getCaughtPokemonModule() {
+        return this.caughtPokemonModule;
     }
 }
