@@ -7,7 +7,11 @@ If you're planning to install it on your own server, you may need to adjust the 
    - File: binaries/config.zip/voicechat/voicechat-server.properties
    - Adjustment: Modify the voice's port and other configurations as needed.
 
-2. Server Properties
+2. BlueMap Server Settings
+   - File: binaries/config.zip/bluemap/webserver.conf
+   - Adjustment: Modify the webserver's port and other configurations as needed.
+
+3. Server Properties
    - File: server.properties
    - Adjustment: Make sure the server port and other server settings are correct for your setup.
 
