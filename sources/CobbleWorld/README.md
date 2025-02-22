@@ -1,9 +1,9 @@
-# Leaderboard (1.20.1)
+# CobbleWorld (1.20.1)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=for-the-badge)](https://github.com/RichardLitt/standard-readme)
 [![discord-banner](https://img.shields.io/discord/1258062506270654515?label=discord&style=for-the-badge&color=7289da)](https://discord.kubbidev.me)
 
-Leaderboard is a **Minecraft 1.20.1 mod** used to render users data in the server.
+CobbleWorld is a **Minecraft 1.20.1 mod** used for the private Minecraft server of the same name.
 
 It is:
 
@@ -17,7 +17,7 @@ It is:
 
 ## Building
 
-Leaderboard uses Gradle to handle dependencies & building.
+CobbleWorld uses Gradle to handle dependencies & building.
 
 #### Requirements
 
@@ -28,7 +28,7 @@ Leaderboard uses Gradle to handle dependencies & building.
 
 ```sh
 git clone https://github.com/kubbidev/CobbleWorld.git
-cd CobbleWorld/sources/Leaderboard/
+cd CobbleWorld/sources/CobbleWorld/
 ./gradlew build
 ```
 
@@ -36,4 +36,4 @@ You can find the output jars in the `build/libs` directory.
 
 ## License
 
-Leaderboard © 2025 by kubbidev is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+CobbleWorld © 2025 by kubbidev is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

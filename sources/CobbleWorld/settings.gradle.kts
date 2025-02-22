@@ -8,4 +8,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Leaderboard"
+rootProject.name = "CobbleWorld"

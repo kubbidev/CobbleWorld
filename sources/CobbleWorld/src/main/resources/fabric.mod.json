@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "leaderboard",
+  "id": "cobbleworld",
   "version": "${version}",
-  "name": "Leaderboard",
-  "icon": "assets/leaderboard/icon.png",
-  "description": "A Minecraft mod used to render users data in the server.",
+  "name": "CobbleWorld",
+  "icon": "assets/cobbleworld/icon.png",
+  "description": "A Minecraft mod used for the private Minecraft server of the same name.",
   "authors": [
     "kubbidev"
   ],
@@ -15,12 +15,12 @@
   "environment": "server",
   "entrypoints": {
     "server": [
-      "me.kubbidev.leaderboard.LeaderboardMod"
+      "me.kubbidev.cobbleworld.CobbleWorldMod"
     ]
   },
   "mixins": [
     {
-      "config": "leaderboard.mixins.json",
+      "config": "cobbleworld.mixins.json",
       "environment": "server"
     }
   ],

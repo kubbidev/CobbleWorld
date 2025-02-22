@@ -14,7 +14,7 @@ group = "me.kubbidev"
 version = "1.0-SNAPSHOT"
 
 base {
-    archivesName.set("leaderboard")
+    archivesName.set("cobbleworld")
 }
 
 java {
@@ -72,13 +72,13 @@ val projectVersion = "$releaseVersion.$patchVersion"
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            artifactId = "leaderboard"
+            artifactId = "cobbleworld"
             version = releaseVersion
 
             from(components["java"])
             pom {
-                name = "Leaderboard"
-                description = "A Minecraft mod that hides all things related to chat signing."
+                name = "CobbleWorld"
+                description = "A Minecraft mod used for the private Minecraft server of the same name."
                 url = "https://github.com/kubbidev/CobbleWorld"
 
                 licenses {
@@ -129,7 +129,7 @@ tasks.processResources {
 }
 
 tasks.shadowJar {
-    archiveFileName = "leaderboard-${projectVersion}-dev.jar"
+    archiveFileName = "cobbleworld-${projectVersion}-dev.jar"
 
     mergeServiceFiles()
     dependencies {
@@ -148,7 +148,7 @@ val remappedShadowJar by tasks.registering(RemapJarTask::class) {
         it.archiveFile
     }
     addNestedDependencies = true
-    archiveFileName = "Leaderboard-Fabric-${projectVersion}.jar"
+    archiveFileName = "CobbleWorld-Fabric-${projectVersion}.jar"
 }
 
 tasks.assemble {
