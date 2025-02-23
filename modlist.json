@@ -696,8 +696,13 @@
 	},
 	{
 		"name": "Chunky",
-		"side": "both",
-		"url": "https://www.curseforge.com/api/v1/mods/433175/files/5320021/download"
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/fALzjamp/versions/NHWYq9at/Chunky-1.3.146.jar"
+	},
+	{
+		"name": "Chunky Border",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/s86X568j/versions/74w5ono0/ChunkyBorder-1.1.53.jar"
 	},
 	{
 		"name": "Sophisticated Backpacks",
