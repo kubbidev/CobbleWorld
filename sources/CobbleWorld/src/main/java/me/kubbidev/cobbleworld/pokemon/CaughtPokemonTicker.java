@@ -21,14 +21,14 @@ public class CaughtPokemonTicker implements Consumer<MinecraftServer> {
      */
     public static final LocalTime TIME_OF_DAY = LocalTime.of(22, 0);
 
-    private final TickingCallback tickingCallback;
-    private final TickingCallback triggerCallback;
+    private final Consumer<MinecraftServer> tickingCallback;
+    private final Consumer<MinecraftServer> triggerCallback;
 
-    private long nextUpdateTicks = getUpdateRemainingTicks();
+    private long nextUpdateMillis = getUpdateRemainingMillis();
 
     public CaughtPokemonTicker(
-            TickingCallback tickingCallback,
-            TickingCallback triggerCallback
+            Consumer<MinecraftServer> tickingCallback,
+            Consumer<MinecraftServer> triggerCallback
     ) {
         this.tickingCallback = tickingCallback;
         this.triggerCallback = triggerCallback;
@@ -40,16 +40,20 @@ public class CaughtPokemonTicker implements Consumer<MinecraftServer> {
 
     @Override
     public final void accept(MinecraftServer server) {
-        this.nextUpdateTicks--;
-        this.tickingCallback.accept(server, this.nextUpdateTicks);
-        if (this.nextUpdateTicks <= 0) {
-            this.nextUpdateTicks = getUpdateRemainingTicks();
-            this.triggerCallback.accept(server, this.nextUpdateTicks);
+        this.nextUpdateMillis -= 50;
+        this.tickingCallback.accept(server);
+        if (this.nextUpdateMillis <= 0) {
+            this.nextUpdateMillis = getUpdateRemainingMillis();
+            this.triggerCallback.accept(server);
         }
     }
 
     public void triggerUpdate() {
-        this.nextUpdateTicks = 0;
+        this.nextUpdateMillis = 0;
+    }
+
+    public Duration getUpdateRemainingDuration() {
+        return Duration.ofMillis(this.nextUpdateMillis);
     }
 
     private ZonedDateTime getCurrentDateTime() {
@@ -65,11 +69,11 @@ public class CaughtPokemonTicker implements Consumer<MinecraftServer> {
                 : updatedDateTime.plusDays(1);
     }
 
-    private long getUpdateRemainingTicks() {
-        return calculateUpdateRemainingDuration().toSeconds() * 50;
+    private long getUpdateRemainingMillis() {
+        return calculateUpdateRemainingDuration().toMillis();
     }
 
-    public Duration calculateUpdateRemainingDuration() {
+    private Duration calculateUpdateRemainingDuration() {
         return Duration.between(getCurrentDateTime(), getScheduledUpdateDateTime());
     }
 }
