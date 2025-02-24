@@ -14,7 +14,7 @@ public class MainCommand {
                 .then(CommandManager.literal("reload")
                         .requires(source -> source.hasPermissionLevel(3))
                         .executes(context -> {
-                            context.getSource().sendFeedback(() -> Text.translatable("commands.cobbleworld.reload.success"), true);
+                            context.getSource().sendFeedback(() -> Text.literal("Reloaded!"), true);
                             mod.getCaughtPokemonModule().triggerUpdate();
                             return Command.SINGLE_SUCCESS;
                         }))
