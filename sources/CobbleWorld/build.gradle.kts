@@ -40,15 +40,6 @@ dependencies {
         modImplementation(fabricApi.module(it, "0.92.3+1.20.1"))
     }
 
-    // Discord dependencies: https://github.com/discord-jda/JDA
-    api("net.dv8tion:JDA:5.3.0") { exclude(module = "opus-java") }
-    api("org.spongepowered:configurate-core:3.7.2") {
-        isTransitive = false
-    }
-    api("org.spongepowered:configurate-hocon:3.7.2") {
-        isTransitive = false
-    }
-
     // test
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.4")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.11.4")
@@ -142,6 +133,9 @@ tasks.shadowJar {
 
     mergeServiceFiles()
     dependencies {
+        exclude(dependency("net.fabricmc:.*"))
+        include(dependency("me.kubbidev:.*"))
+
         // we don't want to include the mappings in the jar do we?
         exclude("/mappings/*")
     }
