@@ -30,6 +30,11 @@
 		"url": "https://www.curseforge.com/api/v1/mods/971821/files/5336647/download"
 	},
 	{
+		"name": "AudioPlayer",
+		"side": "server",
+		"url": "https://cdn.modrinth.com/data/SRlzjEBS/versions/M6EFtrdy/audioplayer-fabric-1.20.1-1.13.2.jar"
+	},
+	{
 		"name": "Balm",
 		"side": "both",
 		"url": "https://www.curseforge.com/api/v1/mods/500525/files/5999468/download"
