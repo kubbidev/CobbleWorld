@@ -2,6 +2,8 @@ package me.kubbidev.cobbleworld.pokemon;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import me.kubbidev.cobbleworld.CobbleWorldMod;
+import me.kubbidev.cobbleworld.api.ConfigReloadEvent;
 import me.kubbidev.cobbleworld.hologram.Hologram;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
 import net.minecraft.server.MinecraftServer;
@@ -49,18 +51,14 @@ public class CaughtPokemonModule implements AutoCloseable {
         this.userPokemonCache = new CopyOnWriteArraySet<>();
     }
 
-    private void tickingCallback(MinecraftServer server, long ticks) {
+    private void tickingCallback(MinecraftServer server) {
         this.pokemonBoards.forEach(CaughtPokemonBoard::tick);
     }
 
-    private void triggerCallback(MinecraftServer server, long ticks) {
+    private void triggerCallback(MinecraftServer server) {
         reloadUsers(server);
         List<Entry> entries = new ArrayList<>(this.userPokemonCache);
         this.pokemonBoards.forEach(board -> board.refreshScores(entries));
-    }
-
-    public void triggerUpdate() {
-        this.ticker.triggerUpdate();
     }
 
     @Override
@@ -70,6 +68,7 @@ public class CaughtPokemonModule implements AutoCloseable {
 
     public void registerListeners() {
         ServerWorldEvents.LOAD.register(this::onWorldLoad);
+        ConfigReloadEvent.EVENT.register(configuration -> this.ticker.triggerUpdate());
     }
 
     private void onWorldLoad(MinecraftServer server, ServerWorld serverWorld) {
@@ -78,7 +77,7 @@ public class CaughtPokemonModule implements AutoCloseable {
         Supplier<Duration> durationSupplier = this.ticker::calculateUpdateRemainingDuration;
         spawnLeaderboard(new CaughtPokemonBoard(durationSupplier, serverWorld), BOARD_POSITION_1);
         spawnLeaderboard(new CaughtPokemonBoard(durationSupplier, serverWorld), BOARD_POSITION_2);
-        triggerCallback(server, 0);
+        triggerCallback(server);
     }
 
     private void spawnLeaderboard(CaughtPokemonBoard caughtPokemonBoard, Vec3i vec3i) {

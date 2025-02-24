@@ -21,14 +21,14 @@ public class CaughtPokemonTicker implements Consumer<MinecraftServer> {
      */
     public static final LocalTime TIME_OF_DAY = LocalTime.of(22, 0);
 
-    private final TickingCallback tickingCallback;
-    private final TickingCallback triggerCallback;
+    private final Consumer<MinecraftServer> tickingCallback;
+    private final Consumer<MinecraftServer> triggerCallback;
 
     private long nextUpdateTicks = getUpdateRemainingTicks();
 
     public CaughtPokemonTicker(
-            TickingCallback tickingCallback,
-            TickingCallback triggerCallback
+            Consumer<MinecraftServer> tickingCallback,
+            Consumer<MinecraftServer> triggerCallback
     ) {
         this.tickingCallback = tickingCallback;
         this.triggerCallback = triggerCallback;
@@ -41,10 +41,10 @@ public class CaughtPokemonTicker implements Consumer<MinecraftServer> {
     @Override
     public final void accept(MinecraftServer server) {
         this.nextUpdateTicks--;
-        this.tickingCallback.accept(server, this.nextUpdateTicks);
+        this.tickingCallback.accept(server);
         if (this.nextUpdateTicks <= 0) {
             this.nextUpdateTicks = getUpdateRemainingTicks();
-            this.triggerCallback.accept(server, this.nextUpdateTicks);
+            this.triggerCallback.accept(server);
         }
     }
 

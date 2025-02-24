@@ -15,7 +15,7 @@ public class MainCommand {
                         .requires(source -> source.hasPermissionLevel(3))
                         .executes(context -> {
                             context.getSource().sendFeedback(() -> Text.literal("Reloaded!"), true);
-                            mod.getCaughtPokemonModule().triggerUpdate();
+                            mod.getConfiguration().reload();
                             return Command.SINGLE_SUCCESS;
                         }))
         );
